@@ -1,13 +1,11 @@
-import GlobalStyle from "./styles/GlobalStyle";
-import ToDoList from "./components/toDoList/ToDoList";
-
+import React from "react";
+import CreateTodo from "./components/CreateTodo"
 
 function App() {
   return (
-    <>  
-    <ToDoList />
-    <GlobalStyle />
-    </>
+    <div className="outer-box">
+      <CreateTodo />
+    </div>
     
   );
 }
